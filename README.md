@@ -1,12 +1,12 @@
 # Orange Lab Task 1
-The task given was to write a (Puppeteer)[https://pptr.dev] script to automate certian tasks on a website.
+The task given was to write a [Puppeteer](https://pptr.dev) script to automate certian tasks on a website.
 Puppeteer is nothing but a Node.js library which provides a high-level API to control Chrome/Chromium over the DevTools Protocol.
 ## Tasks given
   1. Create a new project using Javascript/Typescript in NodeJS 
   2. Integrate puppeteer library 
   3. Use puppeteer to 
-    a. Launch headful browser and go to (swap.defillama.com)[swap.defillama.com]
-    b. Fill the form 
+    - Launch headful browser and go to [swap.defillama.com](swap.defillama.com)
+    -Fill the form 
       - Enter "Arbitrum One" in the "Chain" field 
       - Enter "12" in "You Sell" field 
       - Enter "WBTC" (Wrapped BTC) in the "select token" field on right hand side to "You Sell" field 
