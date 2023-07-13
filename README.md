@@ -6,7 +6,7 @@ Puppeteer is nothing but a Node.js library which provides a high-level API to co
   2. Integrate puppeteer library 
   3. Use puppeteer to
         - Launch headful browser and go to [swap.defillama.com](swap.defillama.com)
-        -Fill the form 
+        - Fill the form 
           - Enter "Arbitrum One" in the "Chain" field 
           - Enter "12" in "You Sell" field 
           - Enter "WBTC" (Wrapped BTC) in the "select token" field on right hand side to "You Sell" field 
