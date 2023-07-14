@@ -93,3 +93,5 @@ Puppeteer is nothing but a Node.js library which provides a high-level API to co
 
      
 The code is running perfectly fine until, step 5. Instead of choosing the 2nd option, the tool tends to choose the third option.
+Although, i was new to this puppeteer concept yet, i tried my best to deliver results.
+
