@@ -92,3 +92,4 @@ Puppeteer is nothing but a Node.js library which provides a high-level API to co
       >  ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/7d0a7fb9-e031-4c28-b1be-13fdb3defd24)</br></br></br>
 
      
+The code is running perfectly fine until, step 5. Instead of choosing the 2nd option, the tool tends to choose the third option.
