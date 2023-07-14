@@ -1,6 +1,29 @@
 # Orange Lab Task 1
 The task given was to write a [Puppeteer](https://pptr.dev) script to automate certian tasks on a website.
 Puppeteer is nothing but a Node.js library which provides a high-level API to control Chrome/Chromium over the DevTools Protocol.
+
+## Pre-Requisites
+
+    a. The most important pre-requisite is to have node.js software pre-installed in the user's PC.
+    b. The second pre-requisite is to install the `puppeteer` dependancy before trying out the program.
+
+## How to use
+  
+  1. **Open the github link by clicking [here](https://github.com/GeekGuy-29/Orange_Lab_Task).** </br></br>
+  2. **Download the project as shown below.** </br></br></br>
+      > ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/f719f59a-00a2-44a7-9a20-feb3c013026e)</br></br></br>
+  3. **Open the project via terminal.** </br></br></br>
+      > ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/8f71d443-ec56-422d-9a61-4b3a3a1ec698)</br></br></br>
+  4. **Run `npm i puppeteer` to install the puppeteer dependancy.** </br></br></br>
+      > ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/fbc8db10-7efd-459e-bcf2-4c66b4246ef0)</br></br></br>
+  5. **Open the file on any preferred IDE in my case it's VS Code.** </br></br></br>
+      > ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/59e2752d-02fa-4d15-93f8-3f38065aaef9)</br></br></br>
+  6. **Open the task.js file** </br></br></br>
+      > ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/6cab1f81-40c2-42ec-8b13-58af53933a92)</br></br></br>
+  7. **Run the command `node task.js` in the terminal.** </br></br></br>
+      >  ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/7d0a7fb9-e031-4c28-b1be-13fdb3defd24)</br></br></br>
+
+      
 ## Tasks given
   1. Create a new project using Javascript/Typescript in NodeJS 
   2. Integrate puppeteer library 
@@ -69,29 +92,7 @@ Puppeteer is nothing but a Node.js library which provides a high-level API to co
             await page.setViewport({ width: 1920, height: 1080 });
             await page.screenshot({path:'example.png'});
         ```
- 
-## Pre-Requisites
-
-    a. The most important pre-requisite is to have node.js software pre-installed in the user's PC.
-    b. The second pre-requisite is to install the `puppeteer` dependancy before trying out the program.
-
-## How to use
-  
-  1. **Open the github link by clicking [here](https://github.com/GeekGuy-29/Orange_Lab_Task).** </br></br>
-  2. **Download the project as shown below.** </br></br></br>
-      > ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/f719f59a-00a2-44a7-9a20-feb3c013026e)</br></br></br>
-  3. **Open the project via terminal.** </br></br></br>
-      > ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/8f71d443-ec56-422d-9a61-4b3a3a1ec698)</br></br></br>
-  4. **Run `npm i puppeteer` to install the puppeteer dependancy.** </br></br></br>
-      > ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/fbc8db10-7efd-459e-bcf2-4c66b4246ef0)</br></br></br>
-  5. **Open the file on any preferred IDE in my case it's VS Code.** </br></br></br>
-      > ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/59e2752d-02fa-4d15-93f8-3f38065aaef9)</br></br></br>
-  6. **Open the task.js file** </br></br></br>
-      > ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/6cab1f81-40c2-42ec-8b13-58af53933a92)</br></br></br>
-  7. **Run the command `node task.js` in the terminal.** </br></br></br>
-      >  ![image](https://github.com/GeekGuy-29/Orange_Lab_Task/assets/74554911/7d0a7fb9-e031-4c28-b1be-13fdb3defd24)</br></br></br>
-
-     
+        
 The code is running perfectly fine until, step 5. Instead of choosing the 2nd option, the tool tends to choose the third option.
 Although, i was new to this puppeteer concept yet, i tried my best to deliver results.
 
